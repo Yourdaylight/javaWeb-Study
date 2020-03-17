@@ -71,10 +71,10 @@
     border: 1px gray;
 }
 #login .userName span{
-    background-image: url("../images/商城素材/userName_Icon.png");
+    background-image: url("../images/userName_Icon.png");
 }
 #login .password span{
-    background-image: url("../images/商城素材/password_Icon.png");
+    background-image: url("../images/password_Icon.png");
 }
 
 #login input{
