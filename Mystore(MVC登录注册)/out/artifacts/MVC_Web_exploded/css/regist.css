@@ -1,0 +1,181 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+#reg_header{
+    height: 110px;
+    width: 100%;
+    box-shadow: 0px 0px 10px orange;
+}
+
+#reg_header .reg_h_center{
+    width: 1200px;
+    height: 110px;
+    margin: 0 auto;
+    display: flex;
+}
+#reg_header .reg_h_left{
+     height: 110px;
+     flex: 1;
+ }
+
+#reg_header .reg_h_left img{
+    height: 100px;
+    width: 120px;
+    float: left;
+}
+#reg_header .reg_h_left h3{
+    float: left;
+    margin-top: 80px;
+    margin-left: 10px;
+}
+#reg_header .reg_h_right{
+    height: 110px;
+    flex: 1;
+    padding-top: 50px;
+    padding-left: 30px;
+}
+
+
+.reg_back {
+    /*设置整体的尺寸、背景色、边距等*/
+    width: 950px;
+    height: 550px;
+    border: 8px solid #eeeeee;
+    background: white;
+    margin: auto;
+    margin-top: 20px;
+}
+
+.reg_left {
+    /*设置左浮动和外边距*/
+    float: left;
+    margin: 10px;
+}
+
+.reg_left > p:first-child {
+    /*设置段落（新用户注册）颜色和字体大小*/
+    color: gray;
+    font-size: 20px;
+}
+
+.reg_left > p:last-child {
+    /*设置段落（USER REGISTER）颜色和字体大小*/
+    color: #A6A6A6;
+    font-size: 20px;
+}
+
+.reg_center {
+    /*设置中间的各种输入框等*/
+    margin-top: 15px;
+    float: left;
+    width: 600px;
+}
+
+.reg_right {
+    /*设置右边段落浮动和外间距*/
+    float: right;
+    margin: 30px;
+}
+
+.reg_right > p:first-child {
+    font-size: 15px;
+
+}
+
+.reg_right p a {
+    /*设置超链接（立即登录）颜色*/
+    color: crimson;
+}
+
+.td_left {
+    /*设置表单中字体对齐方式和宽度、高度*/
+    width: 120px;
+    text-align: right;
+    height: 40px;
+    padding-left: 20px;
+}
+
+.td_right {
+    /*设置输入框内边距*/
+    width: 450px;
+    height: 40px;
+    padding-left: 20px;
+}
+
+#username ,#password,#Email, #rename ,#Telphone,#Birthday,#checkcode,#repassword{
+    /*设置输入框大小和边框*/
+    width: 250px;
+    height: 30px;
+    border: 1px solid #A4A4A4;
+    /* 设置边框为圆角 */
+    border-radius: 8px;
+    padding-left: 15px;
+}
+#checkcode{
+    /*验证码宽度*/
+    width: 100px;
+    float: left;
+}
+span{
+    /*不设成inline-block无法旋转*/
+    display: inline-block;
+}
+/*=========================设置 验证码===============================*/
+
+.code {
+    border: 1px solid black;
+    width: 100px;
+    height: 36px;
+    text-align: center;
+    white-space: normal;
+    float: left;
+    background:url("../images/code_bg.png");
+}
+.change{
+    /*margin-bottom: 0;*/
+    padding-top: 500px;
+}
+.confirm{
+    width: 150px;
+    height: 25px;
+    float: left;
+    text-align: center;
+}
+
+
+/*==================================================================*/
+
+#btn_sub{
+    /*注册按钮*/
+    margin-left: 100px;
+    background: orangered;
+    color: whitesmoke;
+    width: 100px;
+    height: 40px;
+    margin-top: 20px;
+    border: 1px solid gray ;
+}
+
+#reset{
+     /*注册按钮*/
+     margin-left: 40px;
+     background: orangered;
+     color: whitesmoke;
+     width: 100px;
+     height: 40px;
+     border: 1px solid gray ;
+     margin-top: 20px;
+ }
+
+.error{
+    color:red;
+    float: right;
+    margin-left: 10px;
+    margin-top: 0px;
+
+}
+#td_sub{
+    padding-left: 150px;
+}

@@ -1,0 +1,140 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+}
+
+#header{
+    height: 210px;
+    background: white;
+}
+
+#header .header_top{
+    height: 36px;
+    background:#f5f5f5;
+}
+
+#header .header_top_center{
+    width: 1200px;
+    height: 36px;
+    margin: 0 auto;
+    line-height: 36px;
+}
+#header .header_top_center .h_top_left{
+    color: gray;
+    font-size: 13px;
+    float: left;
+    height: 36px;
+}
+#header .header_top_center .h_top_right{
+    color: gray;
+    font-size: 13px;
+    float: right;
+    height: 36px;
+}
+#header .header_top_center.h_top_right a{
+    color: #6c6c6c;
+    margin: 0 5px;
+    font-size: 13px;
+}
+
+#header .header_center{
+    height: 124px;
+    width: 1200px;
+    margin: 0 auto;
+}
+
+#header .header_center .h_c_logo{
+    width: 190px;
+    height: 124px;
+    float: left;
+}
+
+#header .header_center .h_c_search{
+    width: 815px;
+    height: 124px;
+    float: left;
+}
+
+#header .header_center .h_c_code{
+    width: 190px;
+    height: 124px;
+    float: left;
+}
+
+#header .h_c_logo img{
+    width: 200px;
+    height:120px;
+    margin-top:4px ;
+}
+
+#header .h_c_search form{
+    width: 650px;
+    height: 40px;
+    margin-top: 40px;
+    margin-left: 50px;
+}
+#header .h_c_search form .t_input{
+    width: 555px;
+    height: 40px;
+    border: 2px solid black;
+    padding-left: 10px;
+}
+
+#header .h_c_search form .t_button{
+    width: 75px;
+    height: 40px;
+    border: 1px solid gray;
+    float: right;
+    color: orange;
+    margin-left: 5px;
+
+
+}
+#header .h_c_search .hot{
+    margin-left: 80px;
+    margin-top: 5px;
+}
+#header .h_c_search .hot a{
+    color: #6c6c6c;
+    font-size: 15px;
+}
+
+#header .h_c_search .hot a:hover{
+    color: orangered;
+}
+
+#header .h_c_code img{
+    margin-top: 10px;
+    margin-left: 20px;
+    width: 140px;
+    height: 110px;
+}
+#header .nav{
+    width: 1200px;
+    height: 44px;
+    margin: 0 auto;
+    background: darkslategrey;
+    line-height: 44px;
+    border-radius:8px 8px 8px 8px ;
+}
+#header .nav ul{
+    list-style: none;
+    width: 1200px;
+    height: 44px;
+    display: flex;
+}
+#header .nav ul li{
+    flex: 1;
+    text-align: center;
+}
+
+#header .nav ul li a{
+    color: white;
+    font-size: 16px;
+    font-weight: bold;
+}
+#header .nav ul li a:hover{
+    font-size: 25px;
+}

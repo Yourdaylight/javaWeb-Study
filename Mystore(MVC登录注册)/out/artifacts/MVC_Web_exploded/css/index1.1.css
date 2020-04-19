@@ -1,0 +1,161 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background: #f5f5f5;
+}
+a{
+    text-decoration:none ;
+}
+
+/*Banner*/
+#ad{
+    width:1060px;
+    height:600px;
+    position:relative;
+    margin: 0 auto;
+}
+/*取消小圆点*/
+#ad li{
+    list-style:none;
+}
+
+#ad_img li{
+    display:none;
+}
+
+/*角落显示数字的ul*/
+#ad_num{
+    overflow:hidden;
+    position:absolute;
+    bottom:100px;
+    right:10px;
+    color:#FFF;
+}
+/*数字的浮动*/
+#ad_num li{
+    border:#FFF solid 1px;
+    float:left;
+    margin:0px 5px;
+    padding:3px 10px;
+}
+.numsover{
+    background-color:#F08080;
+    color:#F00;
+}
+
+/*精选图片*/
+#ms{
+    width: 1920px;
+    margin: 0 auto;
+
+}
+#ms .ms_top{
+    width: 500px;
+    height: 55px;
+    /*-webkit-background-size: 1200px 55px;*/
+    background-size: 1200px 55px;
+    line-height: 55px;
+    margin-left: 2px;
+    border-top-right-radius: 20px;
+    margin-top: 20px;
+    background: gray;
+
+}
+#ms .ms_top span{
+    color: whitesmoke ;
+
+}
+
+#ms .ms_top span:first-child{
+    font-weight: bold;
+    margin: 0 10px;
+    font-size: 20px;
+}
+
+
+#ms .ms_body{
+
+    width: 1900px;
+    display: flex;
+    margin: 0 auto;
+}
+#ms .ms_body li{
+    margin: 10px auto;
+    margin-left: 20px;
+    margin-bottom: 20px;
+    border: 1px solid darkgray;
+    border-radius: 8px 8px 8px 8px;
+}
+#ms .ms_body li p.name{
+    padding-left: 10px;
+    display: block;
+    margin-top: 20px;
+    font-size: 25px;
+    font-weight: bold;
+    color: gray;
+}
+#ms .ms_body li .photoby{
+    padding-left: 400px;
+    margin-top: 10px;
+    display: block;
+    font-size: 15px;
+    font-weight: bold;
+    color: gray;
+    margin-bottom: 5px;
+}
+
+
+#ms .ms_body img{
+    width: 500px;
+    height: 350px;
+    cursor: pointer;
+    transition: all 0.6s;
+}
+#ms .ms_body img:hover{
+    transform: scale(1.2);
+}
+
+#ms .ms_body li .photoby img{
+    width: 20px;
+    height: 20px;
+    float: left;
+    margin-right: 10px;
+}
+
+/*设置图片左边*/
+
+#ms .ms_body_left ul{
+    list-style: none;
+    flex: 1;
+    padding-left: 10px;
+    margin-top: 20px;
+}
+
+
+
+
+
+/*设置图片中间*/
+
+#ms .ms_body_center ul{
+    list-style: none;
+    flex: 1;
+    padding-left: 10px;
+    margin-top: 20px;
+}
+
+
+
+/*设置页面右边*/
+
+#ms .ms_body_right ul{
+    list-style: none;
+    flex: 1;
+    padding-left: 10px;
+    margin-top: 20px;
+}
+
+
